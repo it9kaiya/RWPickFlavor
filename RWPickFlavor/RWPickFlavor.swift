@@ -13,7 +13,7 @@ public protocol RWPickFlavorProtocol {
     func didCallHello()
 }
 
-class RWPickFlavor: NSObject {
+open class RWPickFlavor: NSObject {
 
     public static let shared = RWPickFlavor()
     
